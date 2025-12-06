@@ -31,6 +31,7 @@ header{
 .nav-left{
     cursor: pointer;
     width: 17%;
+    padding-bottom: 10px;
     
 }
 
@@ -44,7 +45,8 @@ header{
     display: flex;
     gap: 30px;
     font-size: 14px;
-    padding-left: 15px;
+    margin-top: 10px;
+    font-size: 13px;
 }
 
 
@@ -90,10 +92,9 @@ header{
 }
 
 .content > .btn1{
-    padding: 15px 25px;
+    padding: 12px 25px;
     background-color: #007aff;
     color: white;
-    border: none;
     border-radius: 25px;
     font-size: 18px;
     cursor: pointer;
@@ -115,6 +116,7 @@ header{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    margin-bottom: -35px;
 }
 
 .content2 {
@@ -127,27 +129,26 @@ header{
 }
 
 .content2 h1{
-    font-size: 65px;
+    font-size: 55px;
     margin-top: 300px;
     font-weight: 700;  
     color: #ffffff;
 }
 
 .content2 p{
-    font-size: 30px;
+    font-size: 35px;
     color: #ffffff;
-    margin-top: 15px;
+
     
 }
 
 .btn2{
     display: flex;
     gap: 15px;
-    margin-top: 23px;
 }
 
 .btn2 > .btn3{
-    padding: 15px 25px;
+    padding: 12px 25px;
     background-color: #007aff;
     color: white;
     border: none;
@@ -185,8 +186,7 @@ header{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    margin-top: -50px;
-
+    margin-bottom: -35px;
 }
 
 .content3{
@@ -199,7 +199,7 @@ header{
 }
 
 .content3 h1{
-    font-size: 65px;
+    font-size: 55px;
     margin-top: 300px;
     font-weight: 700;  
     color: black;
@@ -209,16 +209,16 @@ header{
     color: black;
     font-size: 30px;
     text-align: center;
+    text
 }
 
 .btn5{
     display: flex;
     gap: 15px;
-    padding-top: 15px;
 }
 
 .btn5 > .btn6{
-    padding: 15px 25px;
+    padding: 12px 25px;
     background-color: #007aff;
     color: white;
     border: none;
@@ -236,7 +236,7 @@ header{
 .btn5 > .btn7{
     background-color: #F5F5F7;
     border: 1;
-    padding: 13px 25px;
+    padding: 12px 25px;
     border-radius: 27px;
     border-color: #007aff;
     color: #007aff;
@@ -253,8 +253,8 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
-
+    padding: 0 12px;
+    margin-bottom: -35px;
 }
 
 .box-1{
@@ -267,6 +267,7 @@ header{
     width: 49.5%;
     object-fit: cover;
     background-position: center;
+
     
 }
 
@@ -302,15 +303,16 @@ header{
     object-fit: cover;
     background-position: center;
     
+    
 }
 
 .box-2 > h1{
-    font-size: 45px;
-    padding-top: 120px;
+    font-size: 35px;
+    margin-top: 55px;
 }
 
 .box-2 > p{
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -350,6 +352,8 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0 12px;
+    margin-bottom: -35px;
     
 }
 
@@ -428,7 +432,7 @@ header{
 .btns > .rightbtn{
     background-color: #AFDCEF;
     border: 1;
-    padding: 13px 25px;
+    padding: 12px 25px;
     border-radius: 27px;
     color: #007aff;
     font-size: px;
@@ -463,10 +467,12 @@ header{
 #btns{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 #btns > .leftbtn1{
-    padding: 10px 22px;
+    padding: 12px 25px;
     background-color: #007aff;
     color: white;
     border: none;
@@ -478,13 +484,12 @@ header{
 }
 
 #btns > .rightbtn1{
-    background-color: #AFDCEF;
+    background-color: transparent;
     border: 1;
     padding: 13px 25px;
     border-radius: 27px;
     color: #007aff;
-    font-size: px;
-    border-color: #007aff;
+    font-size: 15px;
 
 }
 
@@ -497,6 +502,8 @@ header{
     height: 100vh;
     width: 100%;
     display: flex;
+    gap: 10px;
+    padding: 0 12px;
     
 }
 
@@ -509,17 +516,20 @@ header{
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 .content-1{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding-bottom: 250px;
+    padding-bottom: 300px;
 }
 
 .content-1 > h1{
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
+    font-weight: 500;
 }
 
 .content-1 > p{
@@ -527,13 +537,14 @@ header{
     text-align: center;
 }
 
-.content-1 > button{
-    
+#find{
+    padding: 10px 13px!important;
+    width: 140px;
     background-color: #007aff;
     color: white;
     border: none;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
     
@@ -550,9 +561,13 @@ header{
     background-repeat: no-repeat;
 
 }
+.content-2 > h1{
+    font-size: 35px;
+    font-weight: bold;
+}
 
 .content-2 > p{
-    font-size: 23px;
+    font-size: 21px;
     text-align: center;
 
 }
@@ -560,6 +575,8 @@ header{
     display:flex ;
     align-items: center;
     flex-direction: column;
+    gap: 0px;
+    
 }
 .content-2 > button{
     padding: 10px 20px;
@@ -570,7 +587,33 @@ header{
     font-size: 15px;
     cursor: pointer;
     
-    
+}
+
+.image-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.img-box {
+    width: 32%;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#deals-btn{
+    margin-bottom: 300px;
 }
 
 .paragraph{
@@ -581,6 +624,54 @@ header{
 .paragraph > p{
     font-size: 15px;
 } 
+
+.footer {
+    background-color: #f5f5f7;
+    padding: 40px 0;
+    border-top: 1px solid #d2d2d7;
+}
+
+.footer-container {
+    height: 60vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-column h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    font-size: 12px;
+    color: #515154;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+}
+
+
+
 
 
 
